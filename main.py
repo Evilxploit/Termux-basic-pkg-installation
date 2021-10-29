@@ -56,91 +56,50 @@ if inp =="Y" :
   time.sleep(2)
   print("\033[96m"+"Wait For All Package Download. . . . . . . . . . .")
   
-os.system("pkg update -y")
- 
-os.system("pkg upgrade -y")
-
-os.system("apt install python -y")
-
-os.system("pip install pyfiglet")
-
-os.system("termux-setup-storage")
-
-os.system("apt install php -y")
-
-os.system("apt install git -y")
-
-os.system("apt install golang -y")
-
-os.system("apt install host -y")
-
-os.system("apt install nano -y")
-
-os.system("apt install cmatrix -y")
-
-os.system("apt install figlet -y")
-
-os.system("apt install wget -y")
-
-os.system("apt install toilet -y")
-
-os.system("apt install cowsay -y")
-
-os.system("apt install ruby -y")
-
-os.system("gem install lolcat")
-
-os.system("apt install curl -y")
-
-os.system("apt install unzip -y")
-
-os.system("apt install openssh -y")
-
-os.system("apt install tor -y")
-
-os.system("apt install net-tools -y")
-
-os.system("apt install unrar -y")
-
-os.system("apt install clang -y")
-
-os.system("apt install w3m -y")
-
-os.system("apt install proot -y")
-
-os.system("pip install requests -y")
-
-os.system("pip install mechanize -y")
-
-os.system("pip install --upgrade pip")
-
-os.system("pip2 install --upgrade pip")
-
-os.system("apt install python2 -y")
-
-os.system("pkg install cmatrix -y")
-
-os.system("pip install future -y")
-
-os.system("apt install curl -y")
-
-os.system("apt install proot -y")
-
-os.system("pip install youtube-dl -y")
-
-os.system("pkg install weechat-python-plugin -y")
-
-os.system("pkg install python2-static -y")
-
-os.system("pkg install vim-python -y")
-
-os.system("pkg install python-tkinter -y")
-
-os.system("pkg install python-static -y")
-
-print ("\033[96m"+"Now Your Termux Is Ready To Run, Please exit your Termux & open again . . . . . . . ")
+  os.system("pkg update -y")
+  os.system("pkg upgrade -y")
+  os.system("apt install python -y")
+  os.system("pip install pyfiglet")
+  os.system("termux-setup-storage")
+  os.system("apt install php -y")
+  os.system("apt install git -y")
+  os.system("apt install golang -y")
+  os.system("apt install host -y")
+  os.system("apt install nano -y")
+  os.system("apt install cmatrix -y")
+  os.system("apt install figlet -y")
+  os.system("apt install wget -y")
+  os.system("apt install toilet -y")
+  os.system("apt install cowsay -y")
+  os.system("apt install ruby -y")
+  os.system("gem install lolcat")
+  os.system("apt install curl -y")
+  os.system("apt install unzip -y")
+  os.system("apt install openssh -y")
+  os.system("apt install tor -y")
+  os.system("apt install net-tools -y")
+  os.system("apt install unrar -y")
+  os.system("apt install clang -y")
+  os.system("apt install w3m -y")
+  os.system("apt install proot -y")
+  os.system("pip install requests -y")
+  os.system("pip install mechanize -y")
+  os.system("pip install --upgrade pip")
+  os.system("pip2 install --upgrade pip")
+  os.system("apt install python2 -y")
+  os.system("pkg install cmatrix -y")
+  os.system("pip install future -y")
+  os.system("apt install curl -y")
+  os.system("apt install proot -y")
+  os.system("pip install youtube-dl -y")
+  os.system("pkg install weechat-python-plugin -y")
+  os.system("pkg install python2-static -y")
+  os.system("pkg install vim-python -y")
+  os.system("pkg install python-tkinter -y")
+  os.system("pkg install python-static -y")
+  print ("\033[90m"+"Now Your Termux Is Ready To Run, Please exit your Termux & open again . . . . . . . ")
   
 elif inp =="N" :
-os.system("clear")
- print("\033[91m"+"GOOD BYE BRO, SEE YOU NEXT TIME")
+  
+ print("\033[96m"+"GOOD BYE BRO, SEE YOU NEXT TIME")
  exit()
