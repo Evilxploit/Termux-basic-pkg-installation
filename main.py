@@ -1,7 +1,7 @@
 #coded by Mr.EvilXploit
 #Don't Copy My tool'
 #Advance Tnxxx
-import os,time,pyfiglet
+import os,time
 os.system("clear")
 time.sleep(0.1)
 print("\033[93m"+"*"*49)
