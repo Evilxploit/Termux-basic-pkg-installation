@@ -1,4 +1,4 @@
-#coded by Mr.EvilXploit
+#coded by Evilxploit
 #Don't Copy My tool'
 #Advance Tnxxx
 import os,time
@@ -17,11 +17,10 @@ print("\033[92m" + """
 """)
 print("")
 print("\033[92m"+"""
-Coder : Mr.EvilXploit
+Coder : Evilxploit
 
-Facebook : https://www.facebook.com/Mr.EvilXploit
+TG : t.me/Myself_Evilxploit
 
-TG :  t.me/EvilXploit
 """)
 print("")
 print("")
